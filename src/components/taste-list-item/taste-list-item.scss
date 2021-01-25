@@ -1,0 +1,12 @@
+.taste__item {
+    color: black;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    &:last-child {
+        border: none;
+    }
+    &:hover {
+        color:red;
+    }
+}
